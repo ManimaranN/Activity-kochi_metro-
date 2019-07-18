@@ -1,0 +1,138 @@
+.hello{
+    color: grey;
+}
+
+body{
+    background:linear-gradient(0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(bg.jpg);
+    background-size:cover;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo{
+    /* flex:1; */
+    color: white;
+    padding-left: 50px;
+}
+
+.menu{
+    /* flex:1; */
+    color: white;
+    font-family: Roboto;
+    font-size: 18;
+    font-weight: lighter;
+    padding-right: 300px;
+    padding-bottom: 20;
+}
+
+
+.username{
+    /* flex:1; */
+    color: white;
+    float: right;
+    padding-right: 50px;
+    font-size: 16;
+    font-family: Roboto;
+    padding-bottom: 20;
+}
+
+.content{
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 30;
+    /* padding-left: 50px; */
+    margin-left: 50px;
+    margin-top: 50;
+    margin-right: 50;
+}
+
+.image{
+    flex: 1;
+
+}
+.text{
+    flex: 1;
+    padding-top: 25px;
+    padding-right: 50px;
+
+}
+
+.content1_image{
+    width: 90%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+content1_text{
+    padding-top: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    font-size: 50;
+}
+
+.content1_head{
+    color: aqua;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+      font-weight: bold;
+    
+  }
+  
+  .activepage {
+      font-weight: bold;
+  }
+
+  .icon{
+      display:inline;
+  }
+
+  .logoresponsive{
+      width: 25%;
+  }
+  
+
+  /* responsive */
+
+  @media screen and (max-width: 600px) {
+    .username{
+        display: none;
+    }
+
+    .content{
+        display: block;
+    }
+
+    .menu{
+        float: center;
+    }
+  }
+  
