@@ -44,13 +44,21 @@ body{
 
 .content{
     display: flex;
-    background-color: white;
-    border-radius: 25px;
+    /* background-color: white; */
+    /* border-radius: 25px; */
     font-size: 30;
     /* padding-left: 50px; */
+    /* margin-left: 50px; */
+    /* margin-top: 50; */
+    margin-right: 50;
+}
+
+.data{
+    background-color: white;
+    border-radius: 25px;
     margin-left: 50px;
     margin-top: 50;
-    margin-right: 50;
+    margin-right: 50px;
 }
 
 .image{
@@ -64,6 +72,26 @@ body{
 
 }
 
+.content2_image{
+    width: 90%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content2_text{
+    padding-top: 5px;
+    padding-left: 50px;
+    text-align: justify;
+    /* font-size: 25; */
+    /* line-height: 2.5em; */
+}
+
+.content2_head{
+    color: aqua;
+    padding-left: 50px;
+}
+
 .content1_image{
     width: 90%;
     padding-left: 50px;
@@ -71,15 +99,22 @@ body{
     padding-bottom: 50px;
 }
 
-content1_text{
-    padding-top: 100px;
-    padding-right: 100px;
+.content1_text{
+    padding-top: 5px;
+    padding-left: 50px;
     text-align: justify;
-    font-size: 50;
+    /* font-size: 25; */
+    /* line-height: 2.5em; */
 }
 
 .content1_head{
     color: aqua;
+    padding-left: 100px;
+}
+
+.copyright{
+    background-color: white;
+    opacity: 50;
 }
 
 ul {
@@ -100,6 +135,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    /* width: 40; */
   }
   
   li a:hover:not(.active) {
@@ -133,6 +169,14 @@ ul {
 
     .menu{
         float: center;
+    }
+
+    li a{
+        max-width: 100%;
+    }
+
+    ul{
+        width: 100%;
     }
   }
   
