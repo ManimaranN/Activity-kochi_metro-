@@ -1,0 +1,128 @@
+.main{
+    display: flex;
+    /* width:1285px; */
+    height: 362;
+    background-color:#F5F5F5;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    
+}
+
+.where{
+    /* background-color: blue; */
+    flex:2.5;
+    margin-left:40px;
+    /* padding-left: 40px; */
+    padding-top:40px;
+    color: #14B1B2;
+    font-size:28px;
+    font-family: sans-serif;
+    /* padding-bottom: 20px; */
+}
+.from{
+    
+    flex:2.5;
+    font-size:28px;
+    font-family: sans-serif;
+    padding-top:210px;
+
+}
+.done{
+    flex:1;
+    font-size:50px;
+    align-content: center;
+    /* padding-left: 30; */
+    padding-top: 210px;
+}
+.fare{
+
+    flex:2.5;
+    padding-top: 250px;
+    font-size:28px;
+    font-family: sans-serif;
+    color: gray;
+}
+
+h1, h3{
+    padding: 0;
+    margin: 0px !important;
+    color: #14B1B2
+
+}
+
+.way{
+    margin-top:20px;
+    /* display: flex; */
+    display: inline-block;
+}
+
+.box{
+    background-color:#FFFFFF;
+    margin-right: 40px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top:20px;
+    height: 90px;
+    color: grey;
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+    border: 1px solid rgba(222, 222, 222, 0.86);
+}
+
+.button {
+    background-color: white;
+    border:1px solid #14B1B2;
+    border-radius:5px;
+
+    color: #14B1B2;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+   
+    cursor: pointer;
+  }
+
+  .button2 {
+    background-color:#EEEEEE;
+    border: 1px solid rgba(222, 222, 222, 0.86);
+    border-radius:5px;
+
+    color: grey;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+   
+    cursor: pointer;
+  }
+
+  i{
+      padding-left: 30;
+      padding-top: 10;
+  }
+
+   .fare h1{
+      /* color:darkgrey; */
+  }
+
+  .white{
+      color:white;
+  }
+
+  .grey{
+      color: #4A4A4A;
+      font-size: 50px;
+  }
+
+  .data{
+      margin-bottom:176px;
+      /* padding-bottom:40px; */
+  }
+
+  .profile_name{
+      padding-top:10px;
+  }

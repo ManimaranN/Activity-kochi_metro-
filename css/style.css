@@ -5,7 +5,7 @@
 
 
 body{
-    background:linear-gradient(0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(bg.jpg);
+    background:linear-gradient(0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../images/bg.jpg);
     background-size:cover;
 }
 
@@ -14,12 +14,15 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    /* background-color: black; */
     padding: 0%;
     top:0;
-    position: fixed;
+    /* position: fixed; */
     z-index:1;
     width: 100%;
+    margin: 0;
+    margin-left: 0;
+    padding-bottom: 10;
 }
 
 .logo2{
@@ -42,7 +45,7 @@ body{
 }
 
 .menu{
-    /* flex:1; */
+    /* flex:3; */
     color: white;
     font-family: sans-serif;
     font-size: 18;
@@ -51,10 +54,15 @@ body{
     padding-bottom: 20;
     padding-top: 20;
 }
+a{
+    /* font-size: 18px; */
+}
 
 
 .username{
-    /* flex:1; */
+    /* flex:2; */
+    display: flex;
+    justify-content: space-between;
     color: white;
     float: right;
     padding-right: 70px;
@@ -64,8 +72,19 @@ body{
     padding-top: 20;
 }
 
+.profile_name{
+    flex: 1;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.profile_icon{
+    flex:1;
+}
+
 .content{
     display: flex;
+    margin: 0;
     /* background-color: white; */
     /* border-radius: 25px; */
     font-size: 30;
@@ -77,22 +96,25 @@ body{
 
 .data{
     position: relative;
+    margin: 0;
     
     margin: 30px auto 0;
     background-color: white;
     border-radius: 15px;
-    margin-left: 50px;
-    margin-top: 100px;
-    margin-right: 50px;
+    margin-left: 73px;
+    /* margin-top: 110px; */
+    margin-right: 73px;
 }
 
 .image{
     flex: 1;
+    margin: 0;
 
 
 }
 .text{
     flex: 1;
+    margin: 0;
 
     padding-top: 25px;
     padding-right: 50px;
@@ -100,7 +122,8 @@ body{
 }
 
 .content2_image{
-    width: 90%;
+    width: 95%;
+    /* max-width: 700; */
     padding-left: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -108,39 +131,44 @@ body{
 }
 
 .content2_text{
+    
     /* padding-top: 5px; */
-    padding-left: 50px;
+    padding-left: 75px;
+    /* padding-right: -42px; */
     text-align: justify;
     font-family: sans-serif;
-    font-size: 20;
-    line-height: 1.25em;
+    font-size: 18;
+    line-height: 27px;
     order: 41;
 }
 
 .content2_head{
-    color: #32B1B2;
-    padding-left: 50px;
+    color: #    ;
+    padding-left: 80px;
     font-family: sans-serif;
+    /* line-height: 34px; */
+    /* font-size: 28px; */
 }
 
 .content1_image{
-    width: 90%;
-    padding-left: 50px;
+    width: 95%;
+    padding-left: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: 0;
 }
 
 .content1_text{
     padding-top: 5px;
     padding-left: 50px;
     text-align: justify;
-    font-size: 20;
+    font-size: 18;
     font-family: sans-serif;
-    line-height: 1.25em;
+    line-height: 27px;
 }
 
 .content1_head{
-    color: #32B1B2;
+    color: #14B1B2;
     padding-left: 50px;
     font-family: sans-serif;
 }
@@ -149,23 +177,25 @@ h2 .content1_head{
     font-family: sans-serif;
 }
 .contact{
-    margin: 20;
+    margin-bottom: 70;
+    margin-top: 34;
     background-color: white;
     /* opacity: 50;  */
     color: black;
     padding-top: 20;
     text-align:center;
     border-radius: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 73px;
+    margin-right: 73px;
 }
 
 .contact_heading{
-    color: #32B1B2;
+    color: #14B1B2;
     font-family: sans-serif;
     font-weight: bold;
     /* padding-left: 20px; */
     font-size: 30px;
+    padding-bottom: 30px;
 }
 
 .form{
@@ -176,7 +206,7 @@ h2 .content1_head{
 input[type=text], input[type=email], select, textarea {
     font-family: sans-serif;
     width: 100%;
-    padding: 12px;
+    padding: 18px;
     border: 1px solid #ccc; 
     border-radius: 5px;
     box-sizing: border-box; 
@@ -187,9 +217,9 @@ input[type=text], input[type=email], select, textarea {
 
 input[type=submit] {
     font-family: sans-serif;
-    background-color:#32B1B2;
+    background-color:#14B1B2;
     color: white;
-    padding: 12px 20px;
+    padding: 18px 28px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -208,9 +238,10 @@ input[type=submit] {
 }
 
 .form{
-    padding-left: 50;
-    padding-right: 50;
-    padding-bottom: 50;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 60px;
+    /* padding-top:30px; */
 }
 
 .name, .email{
@@ -310,7 +341,7 @@ ul {
   }
 
   .fa-linkedin{
-    background-color: #32B1B2;
+    background-color: #14B1B2;
     border-radius: 50%;
     border: 1x solid grey;
     padding:10px;
@@ -324,12 +355,17 @@ ul {
   .icon_size{
       font-size:20;
       padding-top: 17;
+      /* display: flex; */
+  }
+
+  .icon_{
+      display: flex;
   }
   
 
   /* responsive */
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 660px) {
     .username{
         display: none;
     }
@@ -350,6 +386,9 @@ ul {
     display: block;
 }
 
+.icon_{
+    display: block;
+}
 
     /* .menu ul{
         float: left;
