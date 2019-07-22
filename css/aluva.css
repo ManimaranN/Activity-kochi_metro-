@@ -10,32 +10,59 @@ h2{
 
 }
 
+.page_heading h1{
+    font-size: 27px;
+}
+
 h3{
     font-size: 27px;
+}
+
+body{
+    color:#4A4A4A;
 }
 
 .text_aluva{
     padding-top: 20px;
     padding-left:37;
     padding-right: 31;
-    font-size: 28px;
+    font-size: 18px;
     font-family: sans-serif;
-    line-height: 43px;
+    line-height: 27px;
     margin: 0px 0px 0px 0px; 
     text-align: justify;
     /* padding: 0px 0px 0px 0px; */
 
 }
 
-.subtext{
+ h2{
     font-size: 27px;
+    padding: 0;
+    margin: 0px !important;
+}
+
+.subtext{
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+iframe{
+    width: 100%;
+    /* padding-right: 20px; */
 }
 
 .map{
     /* width: 1134px; */
-    height: 264x;
+    max-height: 264x;
     padding-left: 31px;
     padding-right: 31px;
+    margin-bottom: 10px;
+    width: 100%;
+    /* align-content: center; */
+
+    margin: 0;
+
+    
 }
 
 img{
@@ -46,6 +73,8 @@ img{
 
 .aluva_map{
     /* max-width: 1134; */
+
+    border-radius: 10px;
     
 }
 
@@ -61,6 +90,7 @@ img{
     white-space: nowrap;
     /* padding: 30px 0; */
     margin-right: 40px;
+    
 
     
   }
@@ -69,7 +99,7 @@ img{
   .item {
     /* border: 1px solid #333; */
     display: inline-block;
-    width: 680px;
+    /* width: 680px; */
     /* height: 281px; */
     /* background-color: #F5F5F5; */
     text-align: center;
@@ -80,7 +110,8 @@ img{
 
   .media{
       display: flex;
-      height: 400px;;
+      /* height: 400px;; */
+      margin-bottom: 20px;
   }
 
   .gallery{
@@ -99,9 +130,10 @@ img{
   .gallery{
     padding-left:37;
     padding-right: 31;
-    font-size: 28px;
+    padding-top: 30px;
+    font-size: 19px;
     font-family: sans-serif;
-    line-height: 43px;
+    line-height: 27px;
     margin: 0px 0px 0px 0px; 
     text-align: justify;
 
@@ -111,20 +143,35 @@ img{
       display: flex;
       height: 220px;
       margin-top: 40px;
+      margin-bottom: 40px;
       padding-left: 72px;
       padding-right: 72px;
-
   }
+
 
   .Metro_stations{
       flex:1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       background-color: white;
       border-radius: 15px;
-      margin-right: 20px;
       padding-left: 37px;
-      font-size: 27px;
+      font-size: 18px;
       font-family: sans-serif;
       color:#A4A7A7;
+      margin-bottom: 60px;
+      min-height: 160px;
+      margin-right: 40px;
+  }
+
+  .Metro_stations h2{
+      font-size: 27;
+      
+  }
+
+  .next_text h2{
+      font-size: 27;
   }
 
   .next_station{
@@ -132,26 +179,81 @@ img{
       display: flex;
       background-color: white;
       border-radius: 15px;
-      margin-left: 20px;
+      padding: 0;
+      margin-bottom: 60px;
+      min-height: 160px;
+      /* padding-right: 20px; */
 
   }
 
+
   .next_text{
+      align-self: center;
       flex:2;
       color:A4A7A7;
       font-family: sans-serif;
       padding-left: 40px;
-      font-size:27px;
+      font-size:18px;
 
   }
 
+  .img_1{
+    height: 100%;
+  }
+
   .next_img{
+     
+      /* min-height: 160px; */
       flex:1;
       /* height: 200px; */
-      height: 100%;
+      /* max-height: 300px; */ */
   }
 
 a{
     text-decoration: none;
     color: white;
+}
+
+.nxt_img{
+    /* width: 100%; */
+    /* max-height: 200px; */
+}
+
+
+.data{
+    padding-right:70px;
+}
+
+@media screen and (max-width: 996px) {
+    .last{
+        display: block;
+    }
+
+    .media{
+        display: block;
+    }
+
+    .map{
+        padding-right: 10px;
+    }
+
+    iframe{
+        padding-right: 10px;
+    }
+
+    .last{
+        min-height: 370px;
+    }
+
+    .next_img{
+        height: 100%;
+    }
+
+    .Metro_stations{
+        padding-right: 20px;
+    }
+
+    .Metro_stations{
+        margin-right: 0px;
+    }
 }
